@@ -1,0 +1,10 @@
+@import "tailwindcss";
+body {
+  padding: 25px 90px;
+  background-color: hsl(243, 96%, 9%);
+}
+@media (max-width: 900px) {
+  body {
+    padding: 15px 15px;
+  }
+}
