@@ -1,5 +1,5 @@
 import Body from "./Body";
-import Content from "./content";
+import Content from "./Content";
 import Whether from "./whether";
 
 import { useState, useEffect } from "react";
