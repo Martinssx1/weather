@@ -152,8 +152,7 @@ function Body({ data, opidata }) {
               <div className="text-white text-7xl sm:text-5xl md:text-7xl font-bold">
                 {Math.round(data?.current?.temperature_2m)}°
               </div>
-              git config --global user.name "Martins" git config --global
-              user.email "chimamartins55@gmail.com"
+            
             </div>
           </div>
           <div className="text-white flex flex-wrap gap-4">
