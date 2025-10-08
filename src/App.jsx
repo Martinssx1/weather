@@ -12,7 +12,7 @@ function App() {
     const city = searchCity;
 
     fetch(
-      `https://geocoding-api.open-meteo.com/v1/search?name=${city}&count=10&language=en&format=json`
+      `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(city)}&count=10&language=en&format=json`
     )
       .then((response) => response.json())
       .then((data) => {
